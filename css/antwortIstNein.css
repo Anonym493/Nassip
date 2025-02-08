@@ -1,0 +1,15 @@
+body {
+    margin: 300px;
+    background-color: black;
+}
+
+h1 {
+    align-items: center;
+    color: aliceblue;
+}
+
+
+
+#message {
+    color: aliceblue;
+}

@@ -1,0 +1,157 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="css/valentinstagbrief.css">
+            <link rel="stylesheet" href="css/button.css">
+            <link rel="stylesheet" href="css/klickenHerz.css">
+            <script></script>
+            <title>Valentinstagsbrief</title>
+        </head>
+        <body>
+            <h1 class="visible-text">
+                <p>Nutz die Seite auf dem PC!</p>
+            </h1>
+
+           <!-- <h1 class="klickenText">Bitte auf das Herz Klicken</h1> -->
+            <div class="klickenText">
+                <div class="wrap">
+                    <div class="line">
+                    <div class="left">
+                        <div class="content">
+                        <span class="spanSlow">Klick</span>
+                        </div>
+                    </div><!--
+                    --><div class="right">
+                        <div class="content">
+                        <span class="spanSlow">Klick</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="line">
+                    <div class="left">
+                        <div class="content">
+                        <span class="spanSlow">bitte</span>
+                        </div>
+                    </div><!--
+                    --><div class="right">
+                        <div class="content">
+                        <span class="spanSlow">bitte</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="content">
+                            <span class="spanFast">auf das</span>
+                            </div>
+                        </div><!--
+                        --><div class="right">
+                            <div class="content">
+                            <span class="spanFast">auf das</span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="line">
+                            <div class="left">
+                            <div class="content">
+                                <span class="spanSlow">Herz</span>
+                            </div>
+                            </div><!--
+                            --><div class="right">
+                            <div class="content">
+                                <span class="spanSlow">Herz</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+             
+          
+            <div class="container">
+                <div class="envelope-wrapper">
+                    <div class="envelope">
+                        <div class="letter">
+                            <div class="text">
+                                <strong>Hey Domica.</strong>
+                                <p class="text1">
+                                    Viel Zeit ist vergangen seit ich dich gefragt habe, ob du mit mir auf ein Valentistagdate gehen 
+                                    möchtest. Meinungen können in der Zeit sich geändert haben. Daher muss ich wissen, ob du immernoch dazu stehst. 
+                                    Wenn nicht ist es auch nicht schlimm. 
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+            <div class="buttonsetzen">
+                <button id="myBtn" class="button1">Klar</button>
+                <button id="myBtn2" class="button2">IHH Nein!</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- "Klar"-Pop-up Fenster -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Bist du dir sicher, dass du so ein wie mich Daten möchtest?</p>
+                         <p>Du weiß worauf du dich dann einlässt oder?</p>
+                            <p> Überlege es dir am besten zwei bis dreimal </p>
+
+                    <button id="myBtn3" class="antwort">Ja ich bin mir sicher</button>
+                    <button id="antwortliebernicht" class="antwort">Nein lieber doch nicht.</button>
+                </div>
+            </div>
+
+            <div id="myModal3" class="modal3">
+
+                <!-- Pop-up in Pop-up Fenster -->
+                <div class="modal-content3">
+                    <span class="close3">&times;</span>
+                    <p>Bist du da zu 10000% sicher? noch kannst du ein Rückzug machen...</p>
+
+                    <button id="switchButton" class="antwort">Jaaa!!!</button>
+                    <button id="antwortliebernicht2" class="antwort">leider nur 1% sicher</button>
+                </div>
+            </div>
+            
+            <h1 class="antwortNein">Schade, vielleicht im nächsten Leben :[ </h1>
+
+            <div id="myModal2" class="modal2">
+
+                <!-- "Nein"-Pop-up Fenster -->
+                <div class="modal-content2">
+                    <span class="close2">&times;</span>
+                    <p>Du willst wirkich nicht mit einem gut aussehenden, loyalen, großgebauten, lustigen,
+                        starken, mutigen und sicheren Mann Daten, der seine Frau wie eine Königin behandelt
+                        und voller Überraschungen steckt?
+                    </p>
+
+                    <button id = "antwortDoch" class="antwort">Obwohl, doch</button>
+                    <button class="antwort" id="switchButton2">Ich bleib dabei</button>
+                </div>
+
+            </div>
+
+            
+            
+
+            
+            <script>
+                const envelope = document.querySelector('.envelope-wrapper');
+                envelope.addEventListener('click', () => {
+                    envelope.classList.toggle('flap');
+                });
+            </script>
+            <script src="js/button.js"></script>
+            <script src="js/function.js"></script>
+             <script src="js/antwortIstJa.js"></script> 
+             <script src="js/antwortIstNein.js"></script> 
+
+        </body>
+        
+    </html>

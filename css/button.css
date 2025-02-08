@@ -1,0 +1,191 @@
+.button1, .button2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+    background-color: blueviolet;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Basis Schatten */
+    transition: transform 0.3s, box-shadow 0.3s; /* Übergangseffekte */
+}
+
+.button2 {
+    margin-left: 120px;
+}
+
+.button1:hover, .button2:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Tieferer Schatten beim Hover */
+    transform: translateY(-2px); /* Leichtes Anheben beim Hover */
+}
+
+
+/*-----*/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-weight: 600;
+    font-size: large;
+    font-family:cursive;
+    text-align: center;
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*----------------------------------*/
+
+  .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-weight: 600;
+    font-size: large;
+    font-family:cursive;
+    text-align: center;
+    
+  }
+  
+  /* Modal Content */
+  .modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  /* The Close Button */
+  .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* --------------------------------------------------- */
+
+  .modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-weight: 600;
+    font-size: large;
+    font-family:cursive;
+    text-align: center;
+    
+  }
+  
+  /* Modal Content */
+  .modal-content3 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  /* The Close Button */
+  .close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* -------------------------------------------------------- */
+  .buttonsetzen {
+    display: flex;
+  justify-content: center;
+  /* Optional: falls du die Buttons auch vertikal zentrieren möchtest */
+  align-items: center;
+  /* Optional: falls du einen bestimmten Abstand zwischen den Buttons möchtest */
+  
+  
+  }
+
+  .antwort{
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: #f200ff;
+  }
+
+  .antwortNein{
+    display: none;
+    color: azure;
+  }
+
+  .antwortJa{
+    display: none;
+    color: azure;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+  }

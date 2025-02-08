@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/antwortIstJa.css">
+    <title>Antwort ist Ja</title>
+</head>
+<body>
+    
+     <!-- <button onclick="goBack()">Zurück zum Brief</button>  -->
+    <h1>JUUUUUHHHHUUUU!!!! Wir sehen uns am 14. Ich freue mich drauf. Ich habe da was geplant und ich hoffe sehr,
+         dass es dir gefallen wird :] </h1>
+    <a></a>
+    <a class="textParty">Gib mir aber nochmals bescheid ob, du Feiern gehen möchtest,
+         da du in der Gruppe dafür abgestimmt hast. Ich muss nur richtig einplanen so,
+          dass wir pünklich wieder da sind usw.
+    </a>
+
+    <div id="message">schließ die Seite, um es zu bestätigen</div>
+    <!-- <button id="resetButton">Reset Message</button> -->
+
+    <script src="seiteB.js"></script>
+
+</body>
+<script>
+    function goBack() {
+    localStorage.removeItem('lastPage');
+    window.location.href = 'index.html'; 
+}
+</script>
+<script src="js/satzVerschwinden.js"></script>
+</html>

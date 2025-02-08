@@ -2,6 +2,7 @@ pages:
   script:
     - mkdir public
     - cp -r * public
+    - mv public/.gitlab-ci.yml public/
   artifacts:
     paths:
       - public
